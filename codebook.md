@@ -50,9 +50,12 @@
 <td>Feature: Average of each variable for each activity and each subject</td>
 </tr>
 </tbody></table>
+#Dataset structure
 <div class="highlight highlight-source-r"><pre>str(<span class="pl-smi">Data2</span>)</pre></div>
-<pre><code>## Classes 'data.table' and 'data.frame':   180 obs. of  68 variables:
-str(Data2)
+<pre><code>## 
+data.frame':	180 obs. of  68 variables:
+ $ subject                                       : int  1 1 1 1 1 1 2 2 2 2 ...
+ $ activity                                      : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..: 1 2 3 4 5 6 1 2 3 4 ..
 ##$ timeBodyAccelerometer-mean()-X                : num  0.277 0.255 0.289 0.261 0.279 ...
 ## $ timeBodyAccelerometer-mean()-Y                : num  -0.01738 -0.02395 -0.00992 -0.00131 -0.01614 ...
 ## $ timeBodyAccelerometer-mean()-Z                : num  -0.1111 -0.0973 -0.1076 -0.1045 -0.1106 ...
@@ -64,10 +67,6 @@ str(Data2)
 ## $ timeGravityAccelerometer-mean()-Z             : num  -0.0681 -0.0754 -0.0621 0.332 0.0135 ...
 </code></pre>
 
-#Dataset structure
-Data2 is the Final Data table with the clean data:
-str(Data2)
-'data.frame':	180 obs. of  68 variables
 
 
 #For additional details on the data set, Run the following script in R:
