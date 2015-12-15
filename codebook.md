@@ -71,6 +71,17 @@ data.frame':	180 obs. of  68 variables:
 
 
 <div class="highlight highlight-source-r"><pre>summary(<span class="pl-smi">Data2</span>)</pre></div>
+<pre><code>
+ subject                   activity  timeBodyAccelerometer-mean()-X timeBodyAccelerometer-mean()-Y
+ Min.   : 1.0   WALKING           :30   Min.   :0.2216                 Min.   :-0.040514             
+ 1st Qu.: 8.0   WALKING_UPSTAIRS  :30   1st Qu.:0.2712                 1st Qu.:-0.020022             
+ Median :15.5   WALKING_DOWNSTAIRS:30   Median :0.2770                 Median :-0.017262             
+ Mean   :15.5   SITTING           :30   Mean   :0.2743                 Mean   :-0.017876             
+ 3rd Qu.:23.0   STANDING          :30   3rd Qu.:0.2800                 3rd Qu.:-0.014936             
+ Max.   :30.0   LAYING            :30   Max.   :0.3015                 Max.   :-0.001308             
+
+</code></pre>
+
 #For additional details on the data set, Run the following script in R:
 <pre><code>
 ##Structure for Activity files
