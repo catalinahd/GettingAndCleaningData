@@ -50,7 +50,7 @@
 <td>Feature: Average of each variable for each activity and each subject</td>
 </tr>
 </tbody></table>
-#Dataset structure
+#Dataset structure for tidy data set
 <div class="highlight highlight-source-r"><pre>str(<span class="pl-smi">Data2</span>)</pre></div>
 <pre><code>
 data.frame':	180 obs. of  68 variables:
@@ -84,6 +84,10 @@ data.frame':	180 obs. of  68 variables:
 
 #For additional details on the data set, Run the following script in R:
 <pre><code>
+##Structure for Clean data set before calculating the average of each variable for each activity and each subject
+str(Data)
+
+
 ##Structure for Activity files
 str(dataActivityTest)
 str(dataActivityTrain)
