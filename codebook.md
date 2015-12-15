@@ -51,15 +51,14 @@
 </tr>
 </tbody></table>
 
-****************************Dataset structure************************************
+*******************Dataset structure************************************
 Data2 is the Final Data table with the clean data:
-
 str(Data2)
 'data.frame':	180 obs. of  68 variables
 
 
-*************************For additional details on the data set, Run the following script in R:
-#Data2 is the Final Data table with the clean data:
+******************For additional details on the data set, Run the following script in R:
+Data2 is the Final Data table with the clean data:
 summary(Data2)
 
 ##Structure for Activity files
