@@ -50,7 +50,7 @@
 <td>Feature: Average of each variable for each activity and each subject</td>
 </tr>
 </tbody></table>
-
+<div class="highlight highlight-source-r"><pre>str(<span class="pl-smi">Data2</span>)</pre></div>
 <pre><code>## Classes 'data.table' and 'data.frame':   180 obs. of  68 variables:
 str(Data2)
 ##$ timeBodyAccelerometer-mean()-X                : num  0.277 0.255 0.289 0.261 0.279 ...
