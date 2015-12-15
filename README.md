@@ -16,12 +16,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 *Appropriately labels the data set with descriptive variable names. 
 *From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Steps to reproduce this project:
+*****************Steps to reproduce this project:**************************
 
 1.I recommend using Rstudio to open the R script run_analysis.r (if there is any error it will be easier to debug step by step)
 Otherwise you can use a text editor to open the run_analysis.r file.
 2.The Script is creating a "Data" folder inside the R working directory. 
 
-Outputs produced
+****************Outputs produced*******************************************
 
 The script will create the file "tidydata.txt" at the working directory as an output. This file is the tidy data set with the average of each variable for each activity and each subject.
