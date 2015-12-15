@@ -85,3 +85,21 @@ str(dataSubjectTest)
 str(dataFeaturesTest)
 str(dataFeaturesTrain)
 
+
+***
+<pre><code>
+data.frame':	180 obs. of  68 variables:
+ $ subject                                       : int  1 1 1 1 1 1 2 2 2 2 ...
+ $ activity                                      : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..: 1 2 3 4 5 6 1 2 3 4 ..
+####Structure for Activity files
+str(dataActivityTest)
+str(dataActivityTrain)
+
+##Structure for Subject files
+str(dataSubjectTrain)
+str(dataSubjectTest)
+
+##Structure for Feature files
+str(dataFeaturesTest)
+str(dataFeaturesTrain)
+</code></pre>
