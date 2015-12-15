@@ -52,7 +52,7 @@
 </tbody></table>
 #Dataset structure
 <div class="highlight highlight-source-r"><pre>str(<span class="pl-smi">Data2</span>)</pre></div>
-<pre><code>## 
+<pre><code>
 data.frame':	180 obs. of  68 variables:
  $ subject                                       : int  1 1 1 1 1 1 2 2 2 2 ...
  $ activity                                      : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..: 1 2 3 4 5 6 1 2 3 4 ..
@@ -70,8 +70,8 @@ data.frame':	180 obs. of  68 variables:
 
 
 #For additional details on the data set, Run the following script in R:
-Data2 is the Final Data table with the clean data:
-summary(Data2)
+<div class="highlight highlight-source-r"><pre>summary(<span class="pl-smi">Data2</span>)</pre></div>
+
 
 ##Structure for Activity files
 str(dataActivityTest)
